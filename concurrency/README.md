@@ -11,3 +11,7 @@ https://realpython.com/intro-to-python-threading/
   - thread.start() to start the thread
   - thread.join() to wait for the thread to terminate
   - RuntimeError("threads can only be started once")
+
+- 2020-08-16 multiple_threads.py
+  - manually manage threads through iteration
+  - note that order of threads finishing is not guaranteed
