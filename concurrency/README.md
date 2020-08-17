@@ -20,4 +20,9 @@ https://realpython.com/intro-to-python-threading/
   - use concurrent.futures.ThreadPoolExecutor()
   - 3 executor functions - .submit(), .map(), .shutdown()
   - simple syntax to populate threads
+  
+- 2020-08-17 deadlock_1.py deadlock_2.py
+  - deadlock_1.py: deadlock where two different threads block one another
+  - deadlock_2.py: deadlock where a thread depends on a new thread to be populated,
+    but no new thread is created due to thread pool size
 
