@@ -15,3 +15,9 @@ https://realpython.com/intro-to-python-threading/
 - 2020-08-16 multiple_threads.py
   - manually manage threads through iteration
   - note that order of threads finishing is not guaranteed
+
+- 2020-08-17 thread_pool.py
+  - use concurrent.futures.ThreadPoolExecutor()
+  - 3 executor functions - .submit(), .map(), .shutdown()
+  - simple syntax to populate threads
+
