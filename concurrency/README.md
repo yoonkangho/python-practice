@@ -35,3 +35,7 @@ https://realpython.com/intro-to-python-threading/
   - on top of codes for race_condition, add the lock around the update
   - lock prevents threads from running the update at the same time
   - notice how concurrency is partially sacrificed to achieve the desired consecutive increments
+
+- 2020-10-03 rlock.py
+  - update the codes for lock to use rlock and execute update recursively
+  - notice how the thread maintains the ownership of the lock and increment/decrement
