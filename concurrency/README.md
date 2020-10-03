@@ -26,3 +26,7 @@ https://realpython.com/intro-to-python-threading/
   - deadlock_2.py: deadlock where a thread depends on a new thread to be populated,
     but no new thread is created due to thread pool size
 
+- 2020-10-03 race_condition.py
+  - create a mock database where 'value' is shared across threads
+  - 'value' is incremented by multiple threads simultaneously
+  - notice how each thread override the changes from other threads
