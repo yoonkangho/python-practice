@@ -30,3 +30,8 @@ https://realpython.com/intro-to-python-threading/
   - create a mock database where 'value' is shared across threads
   - 'value' is incremented by multiple threads simultaneously
   - notice how each thread override the changes from other threads
+
+- 2020-10-03 lock.py
+  - on top of codes for race_condition, add the lock around the update
+  - lock prevents threads from running the update at the same time
+  - notice how concurrency is partially sacrificed to achieve the desired consecutive increments
